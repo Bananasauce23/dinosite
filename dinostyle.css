@@ -1,0 +1,212 @@
+body{
+background-image:url("ferns.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+color:#014B0D;
+}
+
+.header{
+	font-family:MedievalSharp;
+	font-size:50px;
+	color:#014B0D;
+	background-color:#EAD192;
+	text-align:center;
+	width:1000px;
+	height:100px;
+	margin-bottom:5px;
+}
+
+.nav{
+	background-color:#EAD192;
+	width:510px;
+	padding:10px;
+	word-spacing:30px;
+}
+
+.footer{
+	font-family:MedievalSharp;
+	background-color:#EAD192;
+	width:1000px;
+	text-align:center;
+	padding:5px;
+	margin-top:10px;
+}
+
+.mainpage{
+	font-family:Oswald;
+	font-size:50px;
+	background-color:#EAD192;
+	width:1500px;
+	height:700px;
+	margin-top:5px;
+	padding:5px;
+	text-align:center;
+}
+
+.category{
+	font-family:Oswald;
+	background-color:#EAD192;
+	width:1500px;
+	height:700px;
+	margin-top:5px;
+	padding:5px;
+	text-align:center;
+}
+
+.dinosaur{
+	font-family:Oswald;
+	background-color:#EAD192;
+	width:1500px;
+	height:1050px;
+	margin-top:5px;
+	padding:5px;
+}
+
+.stegosaurus{
+	font-family:Oswald;
+	background-color:#EAD192;
+	width:1500px;
+	height:1200px;
+	margin-top:5px;
+	padding:5px;
+}
+
+.noticepage{
+	font-family:Oswald;
+	background-color:#EAD192;
+	width:1500px;
+	height:850px;
+	margin-top:5px;
+	padding:5px;
+}
+
+.infobox{
+	float:left;
+	margin-right:50px;
+	border:5px solid #014B0D;
+	margin-left:20px;
+}
+
+.gallery{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	font-family:Oswald;
+	background-color:#EAD192;
+	width:1450px;
+	height:1050px;
+	margin-top:5px;
+}
+
+.galleryimg{
+	border:1px solid #014B0D;
+	background-color:#E08735;
+}
+
+.galleryimg:hover{
+	border:1px solid #248B40;
+	background-color:#F59300;
+}
+
+.desc{
+	margin:5px;
+	text-align:center;
+}
+
+a{
+	color:#012A09;
+}
+
+a:hover{
+	color:#992b2b;
+}
+
+h2{
+	font-size:50px;
+	text-align:center;
+}
+
+ul{
+	width:500px;
+	font-size:20px;
+	margin:0px auto;
+}
+
+div{
+	margin:auto;
+}
+
+i{
+	font-size:50px;
+}
+
+.carnivore{
+	color:#E08735;
+}
+
+.herbivore{
+	color:#638b49;
+}
+
+.omnivore{
+	position:relative;
+	top:7px;
+}
+
+.omnivore:hover{
+	transform:rotate(10deg);
+}
+
+.piscivore{
+	color:#0058a7;
+}
+
+.notice{
+	color:#992b2b;
+	padding:5px;
+}
+
+.back{
+	color:#992b2b;
+	padding:5px 5px;
+}
+
+.tooltip{
+	position:relative;
+	display:inline-block;
+}
+
+.tooltip .tooltiptext{
+	visibility:hidden;
+	width:80px;
+	background-color:black;
+	color:#fff;
+	text-align:center;
+	border-radius:6px;
+	padding:5px 0;
+	position:absolute;
+	z-index:1;
+	bottom:100%;
+	left:90%;
+	margin-left:-60px;
+}
+
+#noticetooltip #noticetooltiptext{
+	left:120%;
+}
+
+#hometooltip #hometooltiptext{
+	left:80%;
+}
+
+#omnitooltip #omnitooltiptext{
+	left:75%;
+}
+
+.tooltip:hover .tooltiptext{
+	visibility:visible;
+}
+
+i:hover{
+	transform:rotate(10deg);
+}
